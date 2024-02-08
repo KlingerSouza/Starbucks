@@ -131,6 +131,7 @@ p {
     button {
         width: 150px;
         height: 40px;
+        margin-bottom: 15px;
     }
 
     .starbucks {
@@ -163,22 +164,30 @@ p {
     }
 
     .circulo {
-        clip-path: circle(85px at 50% 520px);
+        clip-path: circle(90px at 50% 540px);
     }
 }
 
 @media screen and (max-width: 428px) {
     .circulo {
-        clip-path: circle(85px at 50% 543px);
+        clip-path: circle(86px at 50% 547px);    
     }
+
+    button {
+        margin: 0;
+    }
+
+
 }
+
 
 @media screen and (max-width: 340px) {
     .circulo {
-        clip-path: circle(70px at 50% 558px);
+        clip-path: circle(73px at 50% 559px);    
     }
 
     .starbucks {
         width: 90px;
     }
 }
+
